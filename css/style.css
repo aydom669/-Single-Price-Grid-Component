@@ -89,10 +89,13 @@ body {
       line-height: 1.2rem; }
 
 @media (max-width: 664px) {
+  body {
+    height: 120vh; }
+
   .main {
     display: flex;
     flex-direction: column;
-    margin: 0 2rem; }
+    margin: 2rem; }
     .main .main__preço {
       border-radius: 0 0 0 0; }
     .main .main__porque_nos {
